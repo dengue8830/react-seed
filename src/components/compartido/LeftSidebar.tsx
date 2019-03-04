@@ -18,14 +18,6 @@ export const LeftSidebar = (props: IProps) =>
                         <h4 className="m-menu__section-text">Principal</h4>
                         <i className="m-menu__section-icon flaticon-more-v2"></i>
                     </li>
-                    <LiNavLink aClassName="m-menu__link" className="m-menu__item" activeClassName="m-menu__item--active" to={Rutas.mapaTaxis} exact={true}>
-                        <i className="m-menu__link-icon la la-map" style={{ fontSize: 25 }} />
-                        <span className="m-menu__link-title">
-                            <span className="m-menu__link-wrap">
-                                <span className="m-menu__link-text">Mapa</span>
-                            </span>
-                        </span>
-                    </LiNavLink>
                     <LiNavLink aClassName="m-menu__link" className="m-menu__item" activeClassName="m-menu__item--active" to={Rutas.taxis} exact={true}>
                         <i className="m-menu__link-icon la la-taxi" style={{ fontSize: 25 }} />
                         <span className="m-menu__link-title">
@@ -39,22 +31,6 @@ export const LeftSidebar = (props: IProps) =>
                         <span className="m-menu__link-title">
                             <span className="m-menu__link-wrap">
                                 <span className="m-menu__link-text">Choferes</span>
-                            </span>
-                        </span>
-                    </LiNavLink>
-                    <LiNavLink aClassName="m-menu__link" className="m-menu__item" activeClassName="m-menu__item--active" to={Rutas.viajes} exact={true}>
-                        <i className="m-menu__link-icon la la-bookmark" style={{ fontSize: 25 }} />
-                        <span className="m-menu__link-title">
-                            <span className="m-menu__link-wrap">
-                                <span className="m-menu__link-text">Viajes</span>
-                            </span>
-                        </span>
-                    </LiNavLink>
-                    <LiNavLink aClassName="m-menu__link" className="m-menu__item" activeClassName="m-menu__item--active" to={Rutas.clientes} exact={true}>
-                        <i className="m-menu__link-icon la la-users" style={{ fontSize: 25 }} />
-                        <span className="m-menu__link-title">
-                            <span className="m-menu__link-wrap">
-                                <span className="m-menu__link-text">Clientes</span>
                             </span>
                         </span>
                     </LiNavLink>
